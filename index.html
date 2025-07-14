@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Basic SEO -->
+  <title>Harry Potter Numerology Class & Magical Sorting Hat JavaScript Guessing Game</title>
+  <meta name="description" content="A Harry Potter-inspired JavaScript guessing game where wizards guess a magic number in Numerology class and try to determine if they're sorted into Gryffindor, Hufflepuff, Ravenclaw, or Slytherin by the Sorting Hat." />
+  <meta name="keywords" content="Harry Potter game, JavaScript game, Numerology class, Guessing Game, Sorting Hat, Hogwarts, Gryffindor, Hufflepuff, Ravenclaw, Slytherin, numerology, magic game, web game, Hogwarts quiz, wizarding world game, fantasy interactive experience" />
+  <meta name="author" content="Emily Kuhn" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#7f0909" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://ekuhn08.github.io/HP-Prompts/" />
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ekuhn08.github.io/HP-Prompts/" />
+  <meta property="og:title" content="Numerology Class & A Magical Sorting Hat Game" />
+  <meta property="og:description" content="Enter the Numerology Class, prove your magical skills, and discover your Hogwarts house. A fun fantasy coding project using JavaScript." />
+  <meta property="og:image" content="https://i.imgur.com/emcFR8C.png" />
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://ekuhn08.github.io/HP-Prompts/" />
+  <meta property="twitter:title" content="Numerology Class – Hogwarts Sorting Game" />
+  <meta property="twitter:description" content="Guess the magic number and get sorted into your Hogwarts house. An interactive fantasy game coded in JavaScript." />
+  <meta property="twitter:image" content="https://i.imgur.com/emcFR8C.png" />
+
+  <!-- Favicon -->
+ <!-- Favicon for most browsers -->
+<link rel="icon" type="image/x-icon" href="https://i.imgur.com/d5EBoLu.png">
+<link rel="icon" type="image/png" sizes="32x32" href="hhttps://i.imgur.com/d5EBoLu.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://i.imgur.com/d5EBoLu.png">
+
+<!-- Apple Touch Icon (iOS devices) -->
+<link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/d5EBoLu.png">
+
+<!-- Android Chrome icons -->
+<link rel="icon" type="image/png" sizes="192x192" href="https://i.imgur.com/d5EBoLu.png">
+<link rel="icon" type="image/png" sizes="512x512" href="https://i.imgur.com/d5EBoLu.png">
+
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  
+<div class="hogwarts-wrapper">
+  <img src="https://i.imgur.com/emcFR8C.png" class="hogwarts-image" alt="Hogwarts Background" />
+</div>
+
+<!-- Modal overlay for number guessing game -->
+<div class="modal-overlay" id="guessModal">
+  <div class="modal-content">
+    <!-- Message for the user -->
+     <p class="prompt-text">Hello, Wizard! </p>
+     <p class="prompt-sub-text-modal"> <b>To enter Numerology class, prove your psychic powers by guessing the correct number between 1 and 5.</b></p>
+    
+    <!-- Number input field -->
+    <input type="number" id="guessInput" placeholder="Enter a number 1–5" min="1" max="5" />
+
+    <!-- Submit button -->
+    <button id="submitGuess">Submit Guess</button>
+  </div>
+</div>
+  
+<img src="https://i.imgur.com/h7hNuPZ.png" alt="Flying Broomstick" id="broomstick" class="broomstick" alt="Flying broomstick animation" />
+  
+    <div class="potter-overlay">
+    <div class="potter-prompt" id="customPrompt">
+      <img src="https://i.imgur.com/Q2di9g4.png" alt="Witch Hat" class="witch-hat" />
+      <p class="prompt-text">Hello again, Wizard! </p>
+      <p class="prompt-sub-text">Now predict which house the <b> sorting hat </b> will place you in:</p>
+
+     <select id="userInput">
+  <option value="" disabled selected>Select your house</option>
+  <option value="Gryffindor">Gryffindor</option>
+  <option value="Hufflepuff">Hufflepuff</option>
+  <option value="Ravenclaw">Ravenclaw</option>
+  <option value="Slytherin">Slytherin</option>
+</select>
+      <button onclick="checkInput()">Sort Now</button>
+    </div>
+  </div>
+
+<a class="support-me" href="https://buymeacoffee.com/emilykuhn0e" target="_blank">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy Emily a Coffee&nbsp&emoji=&slug=emilykuhn&button_colour=FFD700&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00">
+  </a>
+
+  <script src="script.js"></script>
+  <script>
+  // Scroll to top on load (especially for mobile Safari issues)
+  window.scrollTo(0, 0);
+</script>
+  
+</body>
+</html>
