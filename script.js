@@ -58,7 +58,7 @@ window.addEventListener("DOMContentLoaded", () => {
 function checkInput() {
   const input = document.getElementById("userInput").value.trim();
   if (input === "Gryffindor") {
-    alert("Correct, wonderful Warlock! Welcome to Gryffindor House!");
+    alert("Correct, Warlock (or Witch)! Welcome to Gryffindor House!");
   } else {
     alert("Sorry Muggle, that's not the right answer (hint: the correct house's mascot is a Lion 🦁).");
   }
