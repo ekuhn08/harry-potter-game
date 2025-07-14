@@ -48,7 +48,7 @@ html, body {
 }
 
 .potter-prompt {
-  background: radial-gradient(circle, rgba(127, 9, 9, 0.95) 0%, rgba(255, 204, 0, 0.95) 100%);
+  background: radial-gradient(circle, rgba(127, 9, 9, 0.94) 0%, rgba(255, 204, 0, 0.94) 100%);
   border-radius: 20px;
   width: 550px;
   padding-bottom: 35px;
