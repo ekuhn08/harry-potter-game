@@ -39,7 +39,7 @@ window.addEventListener("DOMContentLoaded", () => {
     }, 100);
   } else {
     setTimeout(() => {
-      alert("Too low, Mud Blood! Enter a new number between 1 and 5:");
+      alert("Too low, Mudblood! Enter a new number between 1 and 5:");
     }, 100);
   }
 }
